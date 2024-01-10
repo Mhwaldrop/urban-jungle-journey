@@ -1,0 +1,279 @@
+html{
+    box-sizing: border-box;
+    font-size: 62.5%;
+
+}
+
+.nav-list img{
+    width: 2rem;
+    height: 2rem;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    color:#FDF8F2;
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(./images/hero-image.jpg);
+    background-size: cover;
+    height: 55rem;
+
+}
+
+.nav-list{
+    list-style: none;
+    display: flex;
+    font-size: 2.5rem;
+    gap: 2rem;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    margin-left: 5rem;
+    margin-top: 3rem;
+}
+
+.socials{
+    margin-right: 10rem;
+}
+
+.socials img{
+    width: 2.5rem;
+    height: 2.5rem;
+}
+
+.logo{
+    width: 60rem;
+    height: 60rem;
+    position: absolute;
+    left: 50%;
+    top: 2rem;
+    margin-left: -30rem;
+
+}
+
+.welcome{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    background-color: #FFEDD2;
+    padding:2rem 5rem;
+}
+
+.welcome-text{
+    grid-column: 1 / 4;
+    grid-row: 2 / span 2;
+    align-self: center;
+    z-index: 1;
+    background-color: #162114;
+    color: #FDF8F2;
+    line-height: 2.5rem;
+    font-size: 1.8rem;
+    padding: 5rem;
+    letter-spacing: 0.2rem;
+}
+
+ h1 {
+    font-size: 5rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+p {
+    font-family: 'Playfair Display', serif;
+    line-height: 2.5rem;
+    font-size: 1.8rem;
+    letter-spacing: 0.2rem;
+}
+
+.welcome-text button{
+    padding: 2rem 4rem;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.8rem;
+    background-color: #FDF8F2;
+    color: #162114;
+}
+
+.main-image{
+    grid-column: 3 / span 3;
+    grid-row: 1 / span 4;
+    z-index: 0;
+}
+
+.welcome img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.featured-plants{
+    display: flex;
+    justify-content: center;
+    background-color: #162114;
+    color: #FFEDD2;
+}
+.right-plant{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    background-color: #162114;
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
+
+.monstera{
+    grid-column: 1 / 2;
+}
+
+.fiddle{
+    grid-column: 2 / 3;
+}
+
+.lilly{
+    grid-column: 3 / 4;
+}
+
+.plant-type{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1.5rem;
+    background-color: #FFEDD2;
+    padding: 2rem;
+    color:#162114
+}
+
+ h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+}
+.plant-type p{
+    font-family: 'Playfair Display', serif;
+    line-height: 2.5rem;
+    font-size: 1.8rem;
+    letter-spacing: 0.2rem;
+}
+
+.plant-type button{
+    padding: 1rem 3rem;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.8rem;
+    color: #FDF8F2;
+    background-color: #162114;
+}
+
+.plant-type img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+/* contact page styling */
+
+.contact-page{
+    background-color: #162114;
+}
+
+.contact-intro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    line-height: 2.5rem;
+    font-size: 1.8rem;
+    letter-spacing: 0.2rem;
+    margin: 0rem 30rem;
+    font-family: 'Playfair Display', serif;
+    color: #FFEDD2;
+
+}
+
+form{
+    margin: 0rem 10rem;
+    font-size: 1.8rem;
+    font-family: 'Playfair Display', serif;
+    color: #FFEDD2;
+}
+
+.form-field{
+    display: flex;
+    flex-direction: column;
+}
+
+.form-field input{
+    margin-bottom: 3rem;
+    height: 2.5rem;
+    background-color: #162114;
+    border: 1px solid #FFEDD2;
+}
+
+textarea{
+    margin-bottom: 3rem;
+    border: 1px solid #FFEDD2;
+    background-color: #162114;
+}
+
+.checkbox{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+.contact-button input{
+    width: 10rem;
+    height: 3.5rem;
+    background-color: #FFEDD2;
+}
+
+
+/* resource page styling */
+.resources-page{
+    background-color: #162114;
+}
+
+.plant-care{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5rem;
+    gap: 5rem;
+    color: #FFEDD2;
+}
+
+.resources-image img{
+    width: 50rem;
+}
+
+
+/* care guide styling */
+
+
+.care-guide-page{
+        background-color: #162114;
+        color: #FFEDD2;
+}
+
+.care-guide-intro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 5rem 25rem;
+}
+
+.plant-care-grid{
+    display: grid;
+    grid-template: repeat(3, 1fr) / repeat(3, 1fr);
+    gap: 5rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    margin-top: 10rem;
+}
+
+.plant img{
+    width: 25rem;
+}
+
+.plant{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #FFEDD2;
+    padding: 3rem;
+}

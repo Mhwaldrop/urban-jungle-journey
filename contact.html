@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./resources/style.css">
+    <title>Contact Us</title>
+</head>
+<body class="contact-page">
+
+    <header>
+        <ul class="nav-list">
+            <li><a href="/index.html">Home</a></li>
+            <li><a href="./care-guide.html">Care Guide</a></li>
+            <li><a href="./resources.html">Resources</a></li>
+            <li><a href="./contact.html">Contact</a></li>
+        </ul>
+        <img class="logo" src="./resources/images/logo.png" alt="logo">
+        <ul class="nav-list socials">
+            <li>
+                <a href=""><i><img src="./resources/images/facebook.png" alt="facebook"></i></a>
+            </li>
+            <li>
+                <a href=""><i><img src="./resources/images/twitter.png" alt="twitter"></i></a>
+            </li>
+            <li>
+                <a href=""><i><img src="./resources/images/instagram.png" alt="instagram"></i></a>
+            </li>
+        </ul>
+    </header>
+
+    <div class="contact-intro">
+        <h1>Get in Touch</h1>
+        <p>Ready to embark on your urban jungle journey? Feel free to reach out with any questions, share your plant stories, or simply connect. We're here to help cultivate your indoor oasis!</p>
+    </div>
+
+    <form action="/form-handling-url" method="post">
+        <fieldset>
+            <legend>Contact Us</legend>
+
+            <div class="form-field">
+                <label for="firstName">First Name</label>
+                <input type="text" id="firstName" name="first_name">
+            </div>
+
+            <div class="form-field">
+                <label for="lastName"> Last Name</label>
+                <input type="text" id="lastName" name="last_name">
+            </div>
+
+            <div class="form-field">
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="email_address">
+            </div>
+
+            <div class="form-field">
+                <label for="message">Your Message</label>
+                <textarea name="your_message" id="message" cols="60" rows="10"></textarea>
+            </div>
+
+            <div class="form-field checkbox">
+                <input type="checkbox" id="newsletter" name="newsletter_agree">
+                <label for="newsletter">Sign up for our newsletter</label>
+            </div>
+
+            <div class="contact-button">
+                <input type="submit">
+            </div>
+
+        </fieldset>
+    </form>
+</body>
+</html>
